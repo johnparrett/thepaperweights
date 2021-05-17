@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+
+        <meta charset="uft-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="title" content="">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="referrer" content="">
+
+        <title>The Paperweights</title>
+
+        <meta property="og:site_name" content="">
+        <meta property="og:url" content="">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="">
+        <meta property="og:description" content="">
+        <meta property="og:image" content="" />
+
+        
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <link type="text/css" rel="stylesheet" href="mouseanimation.style.css">
+
+        <link rel="canonical" url="https://www.johnparrett.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/svg" href="https://d1ujqdpfgkvqfi.cloudfront.net/favicon-generator/htdocs/favicons/2020-10-02/f55c06b41ea225dcca61915f341153c8.ico.png">
+        
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
+        <script src="vue.js" defer></script>
+</head>
+<body>
+    <header>
+        <div>
+            <a class="logo" href="#"><h2 class="logo-title">The Paperweights</h2></a>
+        </div>
+       
+        <nav class="center-social">
+            <ul class="guide">
+                <a class="nav-btn" href="https://www.facebook.com/ThePaperweights/" target="_blank"><li><img class="social-img" src="https://img.icons8.com/material-sharp/30/000000/facebook-new.png"/></li></a>
+                <a class="nav-btn" href="https://www.instagram.com/thepaperweightsband/" target="_blank"><li><img class="social-img" src="https://img.icons8.com/material-sharp/30/000000/instagram-new.png"/></li></a>
+                <a class="nav-btn" href="https://soundcloud.com/user-999946115" target="_blank"><li><img class="social-img" src="https://img.icons8.com/metro/30/000000/soundcloud.png" /></li></a>
+            </ul>
+        </nav>
+
+        <nav class="banner-menu">
+            <ul class="guide">
+                <a class="nav-btn" href="index.html"><li>Home</li></a>
+                <a class="nav-btn" href="contact.html"><li>Contact</li></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="title-2">
+            <h1>Upcoming Shows</h1>
+        </div>
+        <div class="container">
+            <h2 class="h2">Come See Us Play!</h2>
+            <div class="show-container"  id="show">
+                <div class="event show-element1">
+                    <p>{{ date[1] }}</p>
+                    <p>{{ time[1] }}</p>
+                    <p>{{ location[1] }}</p>
+                </div>
+                <div class="event show-element2">
+                    <p>{{ date[2] }}</p>
+                    <p>{{ time[2] }}</p>
+                    <p>{{ location[2] }}</p>
+                </div>
+                <div class="event show-element3">
+                    <p>{{ date[3] }}</p>
+                    <p>{{ time[2] }}</p>
+                    <p>{{ location[1] }}</p>
+                </div>
+                <div class="event show-element4">
+                    <p>{{ date[4] }}</p>
+                    <p>{{ time[1] }}</p>
+                    <p>{{ location[2] }}</p>
+                </div>
+                <div class="event show-element5">
+                    <p>{{ date[5] }}</p>
+                    <p>{{ time[2] }}</p>
+                    <p>{{ location[1] }}</p>
+                </div>
+                
+                <div class="event show-element-last">
+                    <p>{{ date[0] }}</p>
+                    <p>{{ time[0] }}</p>
+                    <p>{{ location[0] }}</p>
+                </div>
+            </div>
+                 <!-- 
+                    template for more show elements
+                    
+                    <div class="show-element">
+                        <p>{{ date[] }}</p>
+                        <p>{{ time[] }}</p>
+                        <p>{{ location[] }}</p>
+                    </div>
+                -->
+        </div>
+        <div class="h3-music">
+            <h3>Bands We Cover</h3>
+            <p class="band-info">The Killers - The Beatles - Amy Winehouse - Bob Dylan - Britney Spears - Many More!</p>
+        </div> 
+        <div class="bottom-contact container">
+            <h3 class="h3">Would you like to book the band?</h3>
+            <a href="contact.html"><button class="contact-btn">Contact Us!</button>
+        </div> 
+    </main>
+    <footer>
+        <ul class="footer-grid-container">
+            <li class="footer-info">&#169; John Parrett 2020</li>
+        </ul>
+    </footer> 
+</body>
+</html>

@@ -76,6 +76,6 @@
 
 @media only screen and (max-width: 400px) {
     .nav-btn {
-        margin-right: 1rem;
+        margin-right: .5rem;
     }
 }

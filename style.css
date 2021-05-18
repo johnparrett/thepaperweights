@@ -53,6 +53,7 @@ header {
 .guide {
     list-style-type: none;
     display: inline-flex;
+    color: white;
 }
 
 .center-social {
@@ -161,17 +162,22 @@ h1 {
 .band-photo-img {
     border-radius: 3rem;
     width: 100%;
+    max-width: 700px;
     margin: 0 auto;
+    
 }
   
 .band-photo { 
     grid-area: band-photo;
+    text-align: center;
 }
   
 .about-info { 
+    width: 90%;
+    margin: 0 auto;
     font-size: 1.5rem;
     text-align: center;
-    line-height: 3rem;
+    line-height: 2.5rem;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -265,17 +271,19 @@ h3 {
 .show-container {
     padding-top: 2rem;
     padding-bottom: 5rem;
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 3rem 3rem;
+    gap: 5rem 5rem;
     grid-template-areas:
       "show-element1 show-element2"
       "show-element3 show-element4"
-      "show-element5 show-element-last";
+      "show-element5 show-element6"
+      "show-element7 show-element8"
+      "show-element9 show-element-last";
   }
   
   .show-element1 { 
@@ -315,10 +323,19 @@ h3 {
     padding-bottom: 2rem;
 }
 
-.band-info {
-
+.date {
+    font-size: 2rem;
+    text-decoration: underline;
 }
 
+.time {
+    font-size: 1.5rem;
+    color: red;
+}
+
+.location {
+    font-size: 1.25rem;
+}
 
 /* show page */
 

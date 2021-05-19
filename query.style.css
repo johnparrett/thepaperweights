@@ -53,7 +53,7 @@
     }
 
     .center-social {
-        left: 5rem;
+        left: 6rem;
     }
 
     .h2 {
@@ -72,10 +72,12 @@
         line-height: 1.5rem;
     }
     
-}
-
-@media only screen and (max-width: 400px) {
     .nav-btn {
-        margin-right: .5rem;
+        margin-right: .75rem;
+    }
+
+    .center-social {
+        left: 3.5rem;
     }
 }
+

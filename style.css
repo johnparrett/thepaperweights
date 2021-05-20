@@ -341,7 +341,6 @@ h3 {
 
 .date {
     font-size: 2rem;
-    text-decoration: underline;
 }
 
 .time {
@@ -351,6 +350,24 @@ h3 {
 
 .location {
     font-size: 1.25rem;
+}
+
+.calendar-btn {
+    font-size: 1rem;
+    padding: .35rem;
+    color: white;
+    background-color: black;
+    border: black 2px solid;
+}
+
+.calendar-btn:hover {
+    color: white;
+    background-color: gray;
+}
+
+.calendar-btn:focus {
+    color: gray;
+    background-color: white;
 }
 
 /* show page */

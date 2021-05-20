@@ -363,6 +363,7 @@ h3 {
 .calendar-btn:hover {
     color: white;
     background-color: gray;
+    cursor: pointer;
 }
 
 .calendar-btn:focus {

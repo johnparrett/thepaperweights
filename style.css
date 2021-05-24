@@ -4,7 +4,7 @@
 
 
 html {
-    font-family: 'Goblin-one', 'sans-serif';
+    font-family: 'Roboto', 'sans-serif';
     min-width: 350px;
 }
 
@@ -132,7 +132,7 @@ header {
 h1 {
     color: white;
     font-size: 10vw;
-
+    
 }
 
 

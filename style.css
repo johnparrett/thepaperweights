@@ -295,11 +295,12 @@ h3 {
     grid-template-rows: 1fr 1fr 1fr;
     gap: 5rem 5rem;
     grid-template-areas:
-      "show-element1 show-element2"
+      "show-element-last show-element-last";
+      /* "show-element1 show-element2"
       "show-element3 show-element4"
       "show-element5 show-element6"
-      "show-element7 show-element8"
-      "show-element-last show-element-last";
+      "show-element7 show-element8" */
+      
   }
   
   .show-element1 { 

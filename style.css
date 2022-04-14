@@ -331,10 +331,6 @@ h3 {
       grid-area: show-element4; 
 }
   
-  .show-element5 { 
-      grid-area: show-element5; 
-}
-  
   .show-element-last { 
       grid-area: show-element-last; 
 }

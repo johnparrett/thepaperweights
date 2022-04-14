@@ -28,7 +28,6 @@
         <link rel="icon" type="image/svg" href="./assets/favicon.ico">
         
         <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
-        <script src="vue.js" defer></script>
 </head>
 <body>
     <header>
@@ -56,22 +55,40 @@
             <h1>Upcoming Shows</h1>
         </div>
         <div class="container">
-            <h2 class="h2">Come See Us Play!</h2>
+            <h2 class="h2"></h2>
             <div class="show-container"  id="show">
 
+                <div class="event show-element-1">
+                    <p class='date'>Sunday, May 1st</p>
+                    <p class='time'>2:00 pm - 4:00 pm</p>
+                    <p class='location'><a class='location-website' href='https://parsonsnorth.com/' target="_blank">Parsons North Brewing Company</a><br>- Columbus, Ohio -</p>
+                </div>
+                <div class="event show-element-2">
+                    <p class='date'>Sunday, May 7th</p>
+                    <p class='time'>8:00 pm - 10:30 pm</p>
+                    <p class='location'><a class='location-website' href='https://threetigersbrewing.com/' target="_blank">Three Tigers Brewery Company</a><br>- Granville, Ohio -</p>
+                </div>
+                <div class="event show-element-3">
+                    <p class='date'>Sunday, May 15th</p>
+                    <p class='time'>2:00 pm - 4:00 pm</p>
+                    <p class='location'><a class='location-website' href='https://parsonsnorth.com/' target="_blank">Parsons North Brewing Company</a><br>- Columbus, Ohio -</p>                </div>
+                <div class="event show-element-4">
+                    <p class='date'>Sunday, June 5th. </p>
+                    <p class='time'>2:00 pm - 4:00 pm</p>
+                    <p class='location'><a class='location-website' href='https://parsonsnorth.com/' target="_blank">Parsons North Brewing Company</a><br>- Columbus, Ohio -</p>                </div>
                 <div class="event show-element-last">
-                    <p class="date">More Dates to Come!</p>
-                    <p class="time">{{ time[0] }}</p>
-                    <p class="location">{{ location[0] }}</p>
+                    <p class="date">New Shows Coming!</p>
+                    <p class="time">Check Back Soon!</p>
+                    <p class="location">Coming to a Town Near You!</p>
                 </div>
             </div>
                  <!-- 
                     template for more show elements
                     
-                    <div class="show-element">
-                        <p>{{ date[] }}</p>
-                        <p>{{ time[] }}</p>
-                        <p>{{ location[] }}</p>
+                    <div class="event show-element-">
+                        <p>{{ date }}</p>
+                        <p>{{ time }}</p>
+                        <p>{{ locatio }}</p>
                     </div>
                 -->
         </div>

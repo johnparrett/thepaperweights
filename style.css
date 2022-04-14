@@ -284,6 +284,17 @@ h3 {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 .show-container {
     padding-top: 2rem;
     padding-bottom: 5rem;
@@ -295,9 +306,10 @@ h3 {
     grid-template-rows: 1fr 1fr 1fr;
     gap: 5rem 5rem;
     grid-template-areas:
+      "show-element-1 show-element-2"
+      "show-element-3 show-element-4"
       "show-element-last show-element-last";
-      /* "show-element1 show-element2"
-      "show-element3 show-element4"
+      /* 
       "show-element5 show-element6"
       "show-element7 show-element8" */
       
@@ -329,7 +341,7 @@ h3 {
   
 .event {
     border: solid black 5px;
-    padding-top: 2rem;
+    padding-top: 1rem;
     padding-bottom: 2rem;
 }
 
@@ -353,6 +365,10 @@ h3 {
     font-size: 1.25rem;
 }
 
+.location-website {
+    color: black;
+}
+
 .calendar-btn {
     font-size: 1rem;
     padding: .35rem;
@@ -371,6 +387,19 @@ h3 {
     color: gray;
     background-color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* show page */
 

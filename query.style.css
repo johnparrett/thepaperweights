@@ -30,14 +30,14 @@
         grid-template-rows: 1fr 1fr 1fr;
         gap: 5rem 5rem;
         grid-template-areas:
-          "show-element1" 
-          "show-element2"
-          "show-element3" 
-          "show-element4"
-          "show-element5" 
-          "show-element6"
-          "show-element7" 
-          "show-element8"
+          "show-element-1" 
+          "show-element-2"
+          "show-element-3" 
+          "show-element-4"
+          "show-element-5" 
+          "show-element-6"
+          "show-element-7" 
+          "show-element-8"
           "show-element-last";
       }
 }

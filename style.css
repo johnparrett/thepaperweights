@@ -315,20 +315,20 @@ h3 {
       
   }
   
-  .show-element1 { 
-      grid-area: show-element1; 
+  .show-element-1 { 
+      grid-area: show-element-1; 
 }
   
-  .show-element2 { 
-      grid-area: show-element2; 
+  .show-element-2 { 
+      grid-area: show-element-2; 
 }
   
-  .show-element3 { 
-      grid-area: show-element3; 
+  .show-element-3 { 
+      grid-area: show-element-3; 
 }
   
-  .show-element4 { 
-      grid-area: show-element4; 
+  .show-element-4 { 
+      grid-area: show-element-4; 
 }
   
   .show-element-last { 

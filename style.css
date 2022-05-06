@@ -3,6 +3,13 @@
 
 
 
+
+
+
+
+
+
+
 html {
     font-family: 'Roboto', 'sans-serif';
     min-width: 350px;
@@ -15,7 +22,6 @@ body {
 }
 
 main {
-
     background-color: black;
     z-index: 2;
     position: sticky;
@@ -30,9 +36,41 @@ main {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* All */
 
 /* Header */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -43,7 +81,7 @@ header {
     display: inline-flex;
     align-items: center;
     z-index: 3;
-    background-color: #ffffff;
+    background-color: #E5E4E2;
     overflow: hidden;
     top: 0;
     left: 0;
@@ -99,10 +137,36 @@ header {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Header */
 
 
 /* Title */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -138,9 +202,35 @@ h1 {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 /* Title */
 
 /* About */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -192,11 +282,34 @@ h1 {
 
 
 
+
+
+
+
+
+
+
+
+
 /* About */
 
 
 
 /* Music Player */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -222,9 +335,25 @@ h1 {
 
 
 
+
+
+
+
+
+
+
+
 /* Music Player */
 
 /* bottom-contact */
+
+
+
+
+
+
+
+
 
 
 
@@ -276,6 +405,18 @@ h3 {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* bottom-contact */
 
 
@@ -308,6 +449,8 @@ h3 {
     grid-template-areas:
       "show-element-1 show-element-2"
       "show-element-3 show-element-4"
+      "show-element-5 show-element-6"
+      "show-element-7 show-element-8"
       "show-element-last show-element-last";
       /* 
       "show-element5 show-element6"
@@ -405,6 +548,18 @@ h3 {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 footer {
     z-index: 1;
     position: fixed;
@@ -433,7 +588,29 @@ footer {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 /* contact form */
+
+
+
+
+
+
+
+
+
+
+
 
 
 .form-container {  

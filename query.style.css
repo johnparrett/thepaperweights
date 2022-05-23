@@ -6,7 +6,7 @@
         margin-right: 1rem;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr .5fr;
+        grid-template-rows: .5fr 1fr;
         gap: 2rem 0rem;
         grid-template-areas:
           "band-photo" 
@@ -37,9 +37,7 @@
           "show-element-5" 
           "show-element-6"
           "show-element-7"
-          "show-element-8" 
-          "show-element-9"
-          "show-element-10" 
+          "show-element-8"            
           "show-element-last";
       }
 }
@@ -70,7 +68,7 @@
 
     .about-info {
         padding-bottom: 1rem;
-        line-height: 1.5rem;
+        line-height: 2rem;
     }
     
     .nav-btn {

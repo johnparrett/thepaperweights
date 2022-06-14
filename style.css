@@ -453,26 +453,50 @@ h3 {
       "show-element-7 show-element-8"
       "show-element-9 show-element-10"
       "show-element-last show-element-last";      
-  }
-  
-  .show-element-1 { 
-      grid-area: show-element-1; 
 }
   
-  .show-element-2 { 
-      grid-area: show-element-2; 
+.show-element-1 { 
+    grid-area: show-element-1; 
 }
   
-  .show-element-3 { 
-      grid-area: show-element-3; 
+.show-element-2 { 
+    grid-area: show-element-2; 
 }
   
-  .show-element-4 { 
-      grid-area: show-element-4; 
+.show-element-3 { 
+    grid-area: show-element-3; 
+}
+  
+.show-element-4 { 
+    grid-area: show-element-4; 
+}
+
+.show-element-5 { 
+    grid-area: show-element-5; 
+}
+  
+.show-element-6 { 
+    grid-area: show-element-6; 
+}
+  
+.show-element-7 { 
+    grid-area: show-element-7; 
+}
+  
+.show-element-8 { 
+    grid-area: show-element-8; 
+}
+
+.show-element-9 { 
+    grid-area: show-element-9; 
+}
+  
+.show-element-10 { 
+    grid-area: show-element-10; 
 }
   
   .show-element-last { 
-      grid-area: show-element-last; 
+    grid-area: show-element-last; 
 }
   
 .event {

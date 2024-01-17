@@ -367,14 +367,14 @@ h3 {
 
 .bottom-contact {
     color: black;
-    text-align: center;
     padding-top: 1rem;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
     margin-bottom: 3rem;
+    text-align: center;
 }
 
 .contact-btn {
-    margin-top: 1 rem;
+    margin-top: 1rem;
     padding: 1rem;
     font-size: 1.5rem;
     background-color: black;
@@ -398,6 +398,26 @@ h3 {
     color: white;
     border: outset lightgray 3px;
 }
+
+#contact-adjust {
+    padding-right: 6rem !important;
+}
+
+#contact-bottom-link { 
+    color:black;
+    text-decoration: none;
+}
+
+#contact-bottom-link:hover {
+    text-decoration: underline;
+    color: #524e52;
+}
+
+#contact-bottom-link:focus {
+    outline-color: red;
+}
+
+
 
 
 
@@ -499,7 +519,7 @@ h3 {
 .h3-music {
     color: white;
     text-align: center;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     margin-top:-1rem;
 }
 

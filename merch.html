@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="uft-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="title" content="">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="referrer" content="">
+
+        <title>The Paperweights</title>
+
+        <meta property="og:site_name" content="">
+        <meta property="og:url" content="">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="">
+        <meta property="og:description" content="">
+        <meta property="og:image" content="assets/text-link-img.png" />
+
+        
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <link type="text/css" rel="stylesheet" href="query.style.css">
+
+        <link rel="canonical" url="https://www.thepaperweightsband.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/svg" href="./assets/favicon.ico">
+        
+        <script src="app.js"></script>
+</head>
+<body>
+    <header>
+        <div>
+            <a class="logo" href="https://www.thepaperweightsband.com"><h2 class="logo-title">The Paperweights</h2></a>
+        </div>
+       
+        <nav class="center-social">
+            <ul class="guide">
+                <a class="nav-btn" href="https://www.facebook.com/ThePaperweightsBand/" target="_blank"><li><img class="social-img" src="https://img.icons8.com/material-sharp/30/000000/facebook-new.png"/></li></a>
+                <a class="nav-btn" href="https://www.instagram.com/thepaperweightsband/" target="_blank"><li><img class="social-img" src="https://img.icons8.com/material-sharp/30/000000/instagram-new.png"/></li></a>
+                <a class="nav-btn" href="https://soundcloud.com/user-999946115" target="_blank"><li><img class="social-img" src="https://img.icons8.com/metro/30/000000/soundcloud.png" /></li></a>
+            </ul>
+        </nav>
+
+        <nav class="banner-menu">
+            <ul class="guide">
+                <a class="nav-btn" href="index.html"><li>Home</li></a>
+                <a class="nav-btn" href="shows.html"><li>Shows</li></a>
+                <a class="nav-btn" href="contact.html"><li>Contact</li></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="title-2">
+            <h1>Merch</h1>
+        </div>
+        <div class="container">
+        <div style="max-width: 1040px; margin: 0 auto;">
+                <div>
+                <a class="anchor" id="fitPrintAnchor" style="padding-top: 0px; margin-top: 0px;"></a>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.2/iframeResizer.min.js"></script>
+                <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+                <script type="text/javascript">
+                  iFrameResize(
+                  {
+                    log: false,
+                    checkOrigin: false,
+                    heightCalculationMethod: 'grow',
+                    autoResize: false,
+                    onMessage: function(messageData) {
+                      var jsonData = JSON.parse(messageData.message);
+                      if (jsonData.action == 'navigateTo') {
+                        window.onbeforeunload = null;
+                        window.parent.location.href= jsonData.data;
+                      }
+                      if (jsonData.action == 'scrollTo') {
+                        setTimeout(function () {
+                          document.getElementById('fitPrintAnchor').scrollIntoView({behavior: 'smooth', block: 'center'});
+                        },200);
+                      }
+                },
+                    onInit: function(iframe)
+                    {
+                      $(document).ready(function(){
+          iframe.iFrameResizer = {
+                        $(window).on({'scroll', () =>
+                        {
+                          const scrollFromTop = $(document).scrollTop();
+                          var fitPrintIframe = $("#fitPrintIframe");
+                          var offset = fitPrintIframe.offset();
+                          if (scrollFromTop > offset.top + 10)
+                          {
+                            iframe.iFrameResizer.sendMessage(scrollFromTop - (offset.top - 10));
+                          }
+                        }})
+                      });
+                    }
+                  }, '#fitPrintIframe');
+                </script>
+                <br>
+                <iframe id="fitPrintIframe" frameborder="0" scrolling="no" src="https://shop.fitprint.io/v2.html?shop=aa8b8df8-a6d4-45a8-8a06-3c6d5207ca29" width="100%" onload="iFrameResize({ log: false, checkOrigin: false, heightCalculationMethod: 'grow', autoResize: false, onMessage: function(messageData) {var jsonData = JSON.parse(messageData.message);if (jsonData.action == 'navigateTo') {window.onbeforeunload = null;window.parent.location.href= jsonData.data;}if (jsonData.action == 'scrollTo') {setTimeout(function () {document.getElementById('fitPrintAnchor').scrollIntoView({behavior: 'smooth', block: 'center'});},200);}},onInit: function(iframe) { $(document).ready(function () { $(window).on('scroll', () => { const scrollFromTop = $(document).scrollTop(); var fitPrintIframe = $('#fitPrintIframe'); var offset = fitPrintIframe.offset(); if (scrollFromTop > offset.top + 10) { iframe.iFrameResizer.sendMessage(scrollFromTop - (offset.top - 10)); }if (scrollFromTop == 0 ) { iframe.iFrameResizer.sendMessage(scrollFromTop); }  }); }); }}, '#fitPrintIframe');"></iframe>
+                <style>
+                  iframe {
+                    width: 1px; min-width: 100%;
+                  }
+                </style>
+                </div>
+              </div>
+        </div>
+        <div class="bottom-contact container">
+            <a id="contact-bottom-link" href="contact.html"><h3 class="h3">Would you like to book the band?</h3></a>
+        </div>  
+        </div> 
+    </main>
+    <footer>
+        <ul class="footer-grid-container">
+            <li class="footer-info">&#169; John Parrett 2020</li>
+        </ul>
+    </footer>
+</body>
+</html>

@@ -35,7 +35,7 @@
       }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     .logo {
         display: none;
     }
@@ -54,7 +54,7 @@
     }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 550px) {
     .band-photo {
         padding-top: 3rem;
     }
@@ -65,11 +65,25 @@
     }
     
     .nav-btn {
-        margin-right: .75rem;
+        margin-right: .5rem;
     }
 
     .center-social {
         left: 3.5rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .nav-btn {
+        font-size: 1.25rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
     }
 }
 
